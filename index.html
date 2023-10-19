@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+
+<head>
+    <script defer src="theme.js"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <li class="logo">
+                <a href="#" class="nav-link">
+                    <span class="link-text logo-text">DinoChat</span>
+                    <svg 
+                        xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M160 144c-35.3 0-64-28.7-64-64s28.7-64 64-64c15.7 0 30 5.6 41.2 15C212.4 12.4 232.7 0 256 0s43.6 12.4 54.8 31C322 21.6 336.3 16 352 16c35.3 0 64 28.7 64 64s-28.7 64-64 64c-14.7 0-28.3-5-39.1-13.3l-32 48C275.3 187 266 192 256 192s-19.3-5-24.9-13.3l-32-48C188.3 139 174.7 144 160 144zM144 352l48.4-24.2c10.2-5.1 21.6-7.8 33-7.8c19.6 0 38.4 7.8 52.2 21.6l32.5 32.5c6.3 6.3 14.9 9.9 23.8 9.9c11.3 0 21.8-5.6 28-15l9.7-14.6-58.9-66.3c-9.1-10.2-22.2-16.1-35.9-16.1H235.1c-13.7 0-26.8 5.9-35.9 16.1l-59.9 67.4L144 352zm19.4-95.8c18.2-20.5 44.3-32.2 71.8-32.2h41.8c27.4 0 53.5 11.7 71.8 32.2l150.2 169c8.5 9.5 13.2 21.9 13.2 34.7c0 28.8-23.4 52.2-52.2 52.2H52.2C23.4 512 0 488.6 0 459.8c0-12.8 4.7-25.1 13.2-34.7l150.2-169z"/>
+
+                    </svg>
+                </a>
+            </li>
+
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M528 160V416c0 8.8-7.2 16-16 16H320c0-44.2-35.8-80-80-80H176c-44.2 0-80 35.8-80 80H64c-8.8 0-16-7.2-16-16V160H528zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H512c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zM272 256a64 64 0 1 0 -128 0 64 64 0 1 0 128 0zm104-48c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24h80c13.3 0 24-10.7 24-24s-10.7-24-24-24H376z"/>
+                    
+                    </svg>
+                    <span class="link-text">Credentials</span>
+                </a>
+            </li>
+
+            
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M226.6 48H117.3l17.1 12.8c6 4.5 9.6 11.6 9.6 19.2s-3.6 14.7-9.6 19.2l-6.5 4.9c-10 7.5-16 19.3-16 31.9l-.3 91c0 10.2 4.9 19.9 13.2 25.8l1.9 1.3c9.9 7.1 23.3 7 33.2-.1l49.9-36.3c10.7-7.8 25.7-5.4 33.5 5.3s5.4 25.7-5.3 33.5l-49.9 36.3-53.8 39.1c-7.3 5.3-13 12.2-16.9 20.1H66.8c5.3-22.1 17.8-41.9 35.9-56.3c-1.3-.8-2.6-1.7-3.8-2.6L97 291.8c-21-15-33.4-39.2-33.3-65l.3-91c.1-19.8 6.7-38.7 18.6-53.9l-.4-.3C70.7 73 64 59.6 64 45.3C64 20.3 84.3 0 109.3 0H226.6C331.2 0 416 84.8 416 189.4c0 11.1-1 22.2-2.9 33.2L390.1 352H341.3l24.5-137.8c1.5-8.2 2.2-16.5 2.2-24.8C368 111.3 304.7 48 226.6 48zM85.2 432L68.7 464H379.3l-16.6-32H85.2zm315.7-30.7l26.5 51.2c3 5.8 4.6 12.2 4.6 18.7c0 22.5-18.2 40.8-40.8 40.8H56.8C34.2 512 16 493.8 16 471.2c0-6.5 1.6-12.9 4.6-18.7l26.5-51.2C52.5 390.7 63.5 384 75.5 384h297c12 0 22.9 6.7 28.4 17.3zM172 128a20 20 0 1 1 0 40 20 20 0 1 1 0-40z"/>
+                    
+                    </svg>
+                    <span class="link-text">play chess</span>
+                </a>
+            </li>
+
+            
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M168.2 384.9c-15-5.4-31.7-3.1-44.6 6.4c-8.2 6-22.3 14.8-39.4 22.7c5.6-14.7 9.9-31.3 11.3-49.4c1-12.9-3.3-25.7-11.8-35.5C60.4 302.8 48 272 48 240c0-79.5 83.3-160 208-160s208 80.5 208 160s-83.3 160-208 160c-31.6 0-61.3-5.5-87.8-15.1zM26.3 423.8c-1.6 2.7-3.3 5.4-5.1 8.1l-.3 .5c-1.6 2.3-3.2 4.6-4.8 6.9c-3.5 4.7-7.3 9.3-11.3 13.5c-4.6 4.6-5.9 11.4-3.4 17.4c2.5 6 8.3 9.9 14.8 9.9c5.1 0 10.2-.3 15.3-.8l.7-.1c4.4-.5 8.8-1.1 13.2-1.9c.8-.1 1.6-.3 2.4-.5c17.8-3.5 34.9-9.5 50.1-16.1c22.9-10 42.4-21.9 54.3-30.6c31.8 11.5 67 17.9 104.1 17.9c141.4 0 256-93.1 256-208S397.4 32 256 32S0 125.1 0 240c0 45.1 17.7 86.8 47.7 120.9c-1.9 24.5-11.4 46.3-21.4 62.9zM144 272a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm144-32a32 32 0 1 0 -64 0 32 32 0 1 0 64 0zm80 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/>
+                    
+                    </svg>
+                    <span class="link-text">talk shit</span>
+                </a>
+            </li>
+
+            
+            <li class="nav-item">
+                <a href="#" class="nav-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M435.4 361.3l-89.7-6c-5.2-.3-10.3 1.1-14.5 4.2s-7.2 7.4-8.4 12.5l-22 87.2c-14.4 3.2-29.4 4.8-44.8 4.8s-30.3-1.7-44.8-4.8l-22-87.2c-1.3-5-4.3-9.4-8.4-12.5s-9.3-4.5-14.5-4.2l-89.7 6C61.7 335.9 51.9 307 49 276.2L125 228.3c4.4-2.8 7.6-7 9.2-11.9s1.4-10.2-.5-15L100.4 118c19.9-22.4 44.6-40.5 72.4-52.7l69.1 57.6c4 3.3 9 5.1 14.1 5.1s10.2-1.8 14.1-5.1l69.1-57.6c27.8 12.2 52.5 30.3 72.4 52.7l-33.4 83.4c-1.9 4.8-2.1 10.1-.5 15s4.9 9.1 9.2 11.9L463 276.2c-3 30.8-12.7 59.7-27.6 85.1zM256 48l.9 0h-1.8l.9 0zM56.7 196.2c.9-3 1.9-6.1 2.9-9.1l-2.9 9.1zM132 423l3.8 2.7c-1.3-.9-2.5-1.8-3.8-2.7zm248.1-.1c-1.3 1-2.7 2-4 2.9l4-2.9zm75.2-226.6l-3-9.2c1.1 3 2.1 6.1 3 9.2zM256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm14.1-325.7c-8.4-6.1-19.8-6.1-28.2 0L194 221c-8.4 6.1-11.9 16.9-8.7 26.8l18.3 56.3c3.2 9.9 12.4 16.6 22.8 16.6h59.2c10.4 0 19.6-6.7 22.8-16.6l18.3-56.3c3.2-9.9-.3-20.7-8.7-26.8l-47.9-34.8z"/>
+                    
+                    </svg>
+                    <span class="link-text">futbol</span>
+                </a>
+            </li>
+
+            <li class="nav-item" id="themeButton">
+                <a href="#" class="nav-link">
+                  <svg
+                    class="theme-icon"
+                    id="lightIcon"
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fad"
+                    data-icon="moon-stars"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                    class="svg-inline--fa fa-moon-stars fa-w-16 fa-7x"
+                  >
+                    <g class="fa-group">
+                      <path
+                        fill="currentColor"
+                        d="M320 32L304 0l-16 32-32 16 32 16 16 32 16-32 32-16zm138.7 149.3L432 128l-26.7 53.3L352 208l53.3 26.7L432 288l26.7-53.3L512 208z"
+                        class="fa-secondary"
+                      ></path>
+                      <path
+                        fill="currentColor"
+                        d="M332.2 426.4c8.1-1.6 13.9 8 8.6 14.5a191.18 191.18 0 0 1-149 71.1C85.8 512 0 426 0 320c0-120 108.7-210.6 227-188.8 8.2 1.6 10.1 12.6 2.8 16.7a150.3 150.3 0 0 0-76.1 130.8c0 94 85.4 165.4 178.5 147.7z"
+                        class="fa-primary"
+                      ></path>
+                    </g>
+                  </svg>
+                  <svg
+                    class="theme-icon"
+                    id="solarIcon"
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fad"
+                    data-icon="sun"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                    class="svg-inline--fa fa-sun fa-w-16 fa-7x"
+                  >
+                    <g class="fa-group">
+                      <path
+                        fill="currentColor"
+                        d="M502.42 240.5l-94.7-47.3 33.5-100.4c4.5-13.6-8.4-26.5-21.9-21.9l-100.4 33.5-47.41-94.8a17.31 17.31 0 0 0-31 0l-47.3 94.7L92.7 70.8c-13.6-4.5-26.5 8.4-21.9 21.9l33.5 100.4-94.7 47.4a17.31 17.31 0 0 0 0 31l94.7 47.3-33.5 100.5c-4.5 13.6 8.4 26.5 21.9 21.9l100.41-33.5 47.3 94.7a17.31 17.31 0 0 0 31 0l47.31-94.7 100.4 33.5c13.6 4.5 26.5-8.4 21.9-21.9l-33.5-100.4 94.7-47.3a17.33 17.33 0 0 0 .2-31.1zm-155.9 106c-49.91 49.9-131.11 49.9-181 0a128.13 128.13 0 0 1 0-181c49.9-49.9 131.1-49.9 181 0a128.13 128.13 0 0 1 0 181z"
+                        class="fa-secondary"
+                      ></path>
+                      <path
+                        fill="currentColor"
+                        d="M352 256a96 96 0 1 1-96-96 96.15 96.15 0 0 1 96 96z"
+                        class="fa-primary"
+                      ></path>
+                    </g>
+                  </svg>
+                  <svg
+                    class="theme-icon"
+                    id="darkIcon"
+                    aria-hidden="true"
+                    focusable="false"
+                    data-prefix="fad"
+                    data-icon="sunglasses"
+                    role="img"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 576 512"
+                    class="svg-inline--fa fa-sunglasses fa-w-18 fa-7x"
+                  >
+                    <g class="fa-group">
+                      <path
+                        fill="currentColor"
+                        d="M574.09 280.38L528.75 98.66a87.94 87.94 0 0 0-113.19-62.14l-15.25 5.08a16 16 0 0 0-10.12 20.25L395.25 77a16 16 0 0 0 20.22 10.13l13.19-4.39c10.87-3.63 23-3.57 33.15 1.73a39.59 39.59 0 0 1 20.38 25.81l38.47 153.83a276.7 276.7 0 0 0-81.22-12.47c-34.75 0-74 7-114.85 26.75h-73.18c-40.85-19.75-80.07-26.75-114.85-26.75a276.75 276.75 0 0 0-81.22 12.45l38.47-153.8a39.61 39.61 0 0 1 20.38-25.82c10.15-5.29 22.28-5.34 33.15-1.73l13.16 4.39A16 16 0 0 0 180.75 77l5.06-15.19a16 16 0 0 0-10.12-20.21l-15.25-5.08A87.95 87.95 0 0 0 47.25 98.65L1.91 280.38A75.35 75.35 0 0 0 0 295.86v70.25C0 429 51.59 480 115.19 480h37.12c60.28 0 110.38-45.94 114.88-105.37l2.93-38.63h35.76l2.93 38.63c4.5 59.43 54.6 105.37 114.88 105.37h37.12C524.41 480 576 429 576 366.13v-70.25a62.67 62.67 0 0 0-1.91-15.5zM203.38 369.8c-2 25.9-24.41 46.2-51.07 46.2h-37.12C87 416 64 393.63 64 366.11v-37.55a217.35 217.35 0 0 1 72.59-12.9 196.51 196.51 0 0 1 69.91 12.9zM512 366.13c0 27.5-23 49.87-51.19 49.87h-37.12c-26.69 0-49.1-20.3-51.07-46.2l-3.12-41.24a196.55 196.55 0 0 1 69.94-12.9A217.41 217.41 0 0 1 512 328.58z"
+                        class="fa-secondary"
+                      ></path>
+                      <path
+                        fill="currentColor"
+                        d="M64.19 367.9c0-.61-.19-1.18-.19-1.8 0 27.53 23 49.9 51.19 49.9h37.12c26.66 0 49.1-20.3 51.07-46.2l3.12-41.24c-14-5.29-28.31-8.38-42.78-10.42zm404-50l-95.83 47.91.3 4c2 25.9 24.38 46.2 51.07 46.2h37.12C489 416 512 393.63 512 366.13v-37.55a227.76 227.76 0 0 0-43.85-10.66z"
+                        class="fa-primary"
+                      ></path>
+                    </g>
+                  </svg>
+                  <span class="link-text">Themify</span>
+                </a>
+              </li>
+
+
+
+
+
+        </ul>
+    </nav>
+
+    <main>
+        <h1>I personally love dinosaurs and the idea of them</h1>
+
+        <p>this text is mean to glorify the existence of dinosaurs and to spread the love for them</p>
+        
+        <p>
+            For long people have question the existence of dinosaurs. This website will challenge
+            anyone who has oppossing views cause we are all about dinasours thats who you are that'
+            thats all we are
+          </p>
+          <p>
+            you might feel like a smartass prick and just say well dinosours dont exist.
+            well guess what buddy we don't care how you feel about it cause there's science 
+            and theres proof of their existence. we might not hold the best arguments but 
+            we'll surely come down on you with all of our might if that's what it takes 
+            to shut your airhole 
+          </p>
+          <p>
+            Post-ironic hot chicken salvia yr yuccie ugh cold-pressed keffiyeh franzen
+            viral taxidermy mustache slow-carb crucifix vape. Taiyaki yuccie hell of
+            tacos kitsch meggings tbh truffaut kickstarter mixtape af kogi.
+            Fingerstache vegan tofu waistcoat gentrify cray. Drinking vinegar 3 wolf
+            moon health goth craft beer master cleanse. Letterpress health goth 8-bit
+            chillwave craft beer brooklyn. Chicharrones master cleanse 8-bit,
+            mumblecore copper mug messenger bag poutine lomo kale chips flannel. Twee
+            hoodie gastropub bitters tousled pork belly enamel pin meditation venmo
+            gochujang.
+          </p>
+          <p>
+            Next level selfies cronut ethical. Tofu tumblr you probably haven't heard
+            of them, man braid literally forage swag chillwave. Pug yr flannel
+            tumeric. Coloring book yr chillwave snackwave, shoreditch shaman gentrify
+            typewriter tumeric DIY copper mug small batch. Scenester waistcoat YOLO
+            hexagon kombucha poke 8-bit meditation. Selvage scenester forage
+            williamsburg. Hoodie fingerstache tacos mustache, hashtag quinoa next
+            level sartorial craft beer retro disrupt lo-fi.
+          </p>
+          <p>
+            YOLO twee keytar farm-to-table flexitarian cardigan polaroid lumbersexual
+            adaptogen drinking vinegar echo park dreamcatcher. Brunch shoreditch
+            dreamcatcher iPhone knausgaard plaid edison bulb letterpress ethical yr
+            fanny pack. Typewriter portland woke glossier cronut, post-ironic migas
+            gentrify letterpress cray brunch lyft 8-bit master cleanse. Pitchfork
+            thundercats organic pour-over unicorn lomo.
+          </p>
+          <p>
+            Ugh yr tacos aesthetic everyday carry, tumeric selvage cliche skateboard.
+            Wolf truffaut enamel pin vexillologist poutine. Hoodie roof party pabst,
+            cardigan letterpress af disrupt +1 subway tile chillwave live-edge
+            meggings next level readymade. Master cleanse gentrify hashtag, stumptown
+            fam single-origin coffee occupy dreamcatcher air plant viral vexillologist
+            enamel pin meggings. Tumblr chambray pickled microdosing austin scenester
+            green juice.
+          </p>
+          <p>
+            Austin four dollar toast church-key, vaporware hoodie edison bulb jean
+            shorts sustainable williamsburg plaid helvetica scenester lomo humblebrag.
+            Meditation tumblr kickstarter ennui williamsburg taiyaki pabst pour-over.
+            8-bit godard cred, chillwave enamel pin skateboard you probably haven't
+            heard of them. Meditation before they sold out single-origin coffee swag
+            try-hard jianbing slow-carb shaman leggings. Palo santo shabby chic
+            whatever man bun. Master cleanse wayfarers single-origin coffee pork belly
+            cronut, normcore cliche jianbing before they sold out tousled shabby chic
+            af pop-up gentrify. Direct trade la croix vexillologist jianbing,
+            flexitarian selvage try-hard stumptown polaroid shaman wayfarers poke
+            ramps food truck swag.
+          </p>
+          <p>
+            Pok pok lumbersexual wayfarers, direct trade leggings poutine truffaut
+            kitsch. Seitan aesthetic master cleanse squid coloring book banh mi YOLO
+            vegan locavore vexillologist readymade next level pop-up edison bulb.
+            Selvage knausgaard literally, quinoa photo booth 3 wolf moon microdosing
+            freegan yuccie. Truffaut gentrify lomo put a bird on it waistcoat. Ugh
+            austin distillery, tbh actually pork belly snackwave artisan mixtape
+            quinoa vexillologist pok pok polaroid listicle readymade.
+          </p>
+          <p>
+            Hammock letterpress prism dreamcatcher truffaut shabby chic vice
+            cold-pressed. Franzen pug fashion axe before they sold out, tumblr irony
+            kogi actually af bushwick banh mi. Snackwave bicycle rights tofu
+            dreamcatcher tote bag pour-over meditation raw denim fanny pack. Pop-up
+            retro taiyaki meditation twee gastropub VHS etsy. Semiotics gochujang
+            street art normcore, edison bulb farm-to-table pour-over taxidermy
+            brooklyn.
+          </p>
+
+    </main>
+
+
+
+
+
+
+</body>
